@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Home.css"
 
 export default function Home() {
     return (
-        <div>
+        <div className="Home">
             <h2>Home</h2>
             <p>Hello, everyone!</p>
             <p>My name is Konstantin.</p>
