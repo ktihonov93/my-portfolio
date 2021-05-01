@@ -1,5 +1,97 @@
 .WorkCard-img{
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 100%;
+}
+
+.WorkCard-description{
+  margin-top: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.WorkCard{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 10% 20px 10%;
+    box-shadow: 0 4px 5px 3px rgba(53, 68, 136, 0.459) !important;
+    border-radius: 15px;
+    transition: all .5s ease 0s !important;
+    background-color: khaki;
+    background-image: linear-gradient(45deg,khaki,beige);
+}
+
+.WorkCard:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(8, 30, 104, 0.788) !important;
+}
+
+.WorkCard-button {
+  background-color: rgba(16, 9, 104, 0.685);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --c: goldenrod;
+  color: var(--c);
+  font-size: 16px;
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+}
+
+.WorkCard-button span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.WorkCard-button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.WorkCard-button:hover span {
+  transform: translateY(0) scale(2);
+}
+
+.WorkCard-button span:nth-child(1) {
+  --n: 1;
+}
+
+.WorkCard-button span:nth-child(2) {
+  --n: 2;
+}
+
+.WorkCard-button span:nth-child(3) {
+  --n: 3;
+}
+
+.WorkCard-button span:nth-child(4) {
+  --n: 4;
+}
+
+.WorkCard a {
+  text-decoration: none;
 }

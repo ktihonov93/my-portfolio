@@ -1,13 +1,21 @@
 import React from 'react'
 import './WorkCard.css';
 
-export default function WorkCard({title, description, src}) {
+export default function WorkCard({title, description, src, link}) {
     return (
-        <div>
+        <div className="WorkCard">
             <img className="WorkCard-img" src={src} alt={title}/>
             <h2>{title}</h2>
-            <p>{description}</p>
-            <button class="pulse">View</button>
+            <p className="WorkCard-description">{description}</p>
+            <a href={link}>
+              <button className="WorkCard-button">
+        view
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
+      </a>    
         </div>
     )
 }
