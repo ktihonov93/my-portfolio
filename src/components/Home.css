@@ -58,7 +58,8 @@
 
   .Home-about-me-content{
     font-size: 16px;
-    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    background-color: #dacccc;
     margin: 10px 5% 20px 5%;
     padding: 10px;
     border-radius: 15px;
@@ -69,4 +70,14 @@
     color:rgb(19, 0, 128);
     font-weight: bolder;
     font-style: italic;
+  }
+
+  .tools img{
+    width: 140px;
+  }
+
+  .tools{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
