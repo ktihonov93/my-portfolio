@@ -20,9 +20,6 @@ export default function Navbar() {
               <Link to="/work">Work</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
               <Link to="/resume">Resume</Link>
             </li>
           </ul>
