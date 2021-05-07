@@ -6,6 +6,7 @@ import Home from "./components/Home.jsx";
 import Resume from "./components/Resume";
 import Work from "./components/Work";
 import About from "./components/About";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         </Route>
         
         </Switch>
+        <Footer/>
       </div>
     </Router>
   )
