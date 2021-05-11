@@ -6,8 +6,8 @@ export default function Home() {
         <div className="Home">
             <p>Hello, everyone!<span className="wave">👋🏻</span></p>
             <p>My name is Konstantin.</p>
-            <p>I'm a Front End Web Developer</p>
-            <div  className="Home-avatar"><img src="https://i.ibb.co/fx38XFt/F3ty-GHWn-Urc-1.jpg" className="img-fluid" alt="avatar"/></div>
+            <p>I'm a Front End Web Developer</p>            
+            <div  className="Home-avatar"><img src="https://i.ibb.co/Y3D65XW/me.jpg" className="img-fluid" alt="avatar"/></div>
             <p className="Home-about-me">About me</p>
             <p className="Home-about-me-content"><p>I'm a certified, self-disciplined, constant self-training, ambitious and purposeful <b>Front End Developer</b>.</p>
             <p>In 2021, at <b>Wild Code School</b>, I studied for 5 months as a Front End Developer, acquiring new skills like <b>React</b> and <b>JavaScript</b>.</p>

@@ -11,3 +11,14 @@ html{
     background-color: #f5b15d;
 background-image: url("https://www.transparenttextures.com/patterns/buried.png");
 }
+
+@media (min-width: 550px) {
+    .workcards {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .workcards .Workcard{
+      width: 500px;
+      margin: 20px 20px 80px 20px;
+    }
+  }

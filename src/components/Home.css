@@ -49,6 +49,7 @@
   .Home-avatar{
     display: flex;
     justify-content: center;
+    margin: 70px 0 10px 0;
   }
 
   .Home-about-me{
