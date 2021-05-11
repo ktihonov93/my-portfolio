@@ -2,11 +2,8 @@ h1 {
     text-align: center;
   }
   
-  .title-Timeline {
-    font-size: 23px;
-  }
-  
   .resume {
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -17,6 +14,18 @@ h1 {
       display: flex;
       justify-content: space-between;
       flex-direction: row;
+      margin-bottom: 50px;
+    }
+    .resume-education, .resume-experience{
+      width: 50%;
     }
   }
   
+  .resume label{
+    outline-color: transparent;
+    margin-top: 2px;
+  }
+
+  .resume-education h1, .resume-experience h1{
+    margin-bottom: 30px;
+  }

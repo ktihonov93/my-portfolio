@@ -5,7 +5,7 @@ import { Timeline, Event } from "react-timeline-scribble";
 
 const ResumeContent = () => (
   <div className="resume">
-    <div>
+    <div className="resume-experience">
       <Fragment>
         <h1>Experience</h1>
         <Timeline>
@@ -57,7 +57,7 @@ const ResumeContent = () => (
         </Timeline>
       </Fragment>
     </div>
-    <div>
+    <div className="resume-education">
       <Fragment>
         <h1>Education</h1>
         <Timeline>
