@@ -99,3 +99,11 @@
 .WorkCard a {
   text-decoration: none;
 }
+
+@media (min-width: 550px) {
+  .WorkCard{
+    width: 350px;
+    margin: 20px 20px 80px 20px;
+  }
+}
+

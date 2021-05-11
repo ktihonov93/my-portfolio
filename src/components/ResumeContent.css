@@ -3,18 +3,17 @@ h1 {
   }
   
   .resume {
-    margin-top: 80px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+      margin: 80px 5% 50px 5%;
   }
   
   @media (min-width: 900px) {
     .resume {
       display: flex;
       justify-content: space-between;
-      flex-direction: row;
-      margin-bottom: 50px;
+      flex-direction: row;      
     }
     .resume-education, .resume-experience{
       width: 50%;
