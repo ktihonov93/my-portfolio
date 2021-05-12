@@ -4,9 +4,11 @@ import "./Home.css"
 export default function Home() {
     return (
         <div className="Home">
+            <div className="Home-greetings">
             <p>Hello, everyone!<span className="wave">👋🏻</span></p>
             <p>My name is Konstantin.</p>
-            <p>I'm a Front End Web Developer</p>            
+            <p>I'm a Front End Web Developer</p> 
+            </div>           
             <div  className="Home-avatar"><img src="https://i.ibb.co/Y3D65XW/me.jpg" className="img-fluid" alt="avatar"/></div>
             <p className="Home-about-me">About me</p>
             <p className="Home-about-me-content"><p>I'm a certified, self-disciplined, constant self-training, ambitious and purposeful <b>Front End Developer</b>.</p>
