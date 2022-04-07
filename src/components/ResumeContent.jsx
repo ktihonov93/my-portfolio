@@ -11,6 +11,16 @@ const ResumeContent = () => (
         <Timeline>
           <Event
             className="event"
+            interval={"12/2021 - 03/2022"}
+            title={<div className="title-Timeline">Frontend Developer, Intern</div>}
+            subtitle={"EPAM Systems"}
+          >
+            Accessibility, BEM methodology, OOP basics with practical tasks, patterns, TypeScript, HTTP, AJAX,
+            JavaScript, React. At the end of the internship, I successfully completed my graduation project on React
+            in two weeks - https://ktihonov93.github.io/
+          </Event>
+          <Event
+            className="event"
             interval={"01/2019 - 12/2019"}
             title={<div className="title-Timeline">Design Engineer</div>}
             subtitle={"LLC «TECHNOCONSULTING»"}
