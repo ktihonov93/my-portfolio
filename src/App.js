@@ -19,7 +19,7 @@ function App() {
         <Route path="/my-portfolio/resume">
             <Resume />
           </Route>        
-        <Route path="/my-portfolio">
+        <Route path="/my-portfolio/">
             <Home />
         </Route>
         
