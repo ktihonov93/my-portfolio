@@ -13,13 +13,13 @@ function App() {
       <div>        
         <Navbar />
         <Switch>
-        <Route path="/work">
+        <Route path="/my-portfolio/work">
             <Work />
         </Route>
-        <Route path="/resume">
+        <Route path="/my-portfolio/resume">
             <Resume />
           </Route>        
-        <Route path="/">
+        <Route path="/my-portfolio">
             <Home />
         </Route>
         
