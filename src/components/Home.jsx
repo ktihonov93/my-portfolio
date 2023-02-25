@@ -21,16 +21,26 @@ export default function Home() {
       <p className="Home-about-me-content">
         <p>
           I'm a certified, self-disciplined, constant self-training, ambitious
-          and purposeful <b>Front End Developer</b>.
+          and purposeful <b>Front End Developer</b>. My development experience
+          is more than 2 years. During this time I have worked on two projects
+          in Andersen. My main technology stack is{" "}
+          <b>JavaScript, React, HTML, CSS</b>.
         </p>
         <p>
-          In 2021, at <b>Wild Code School</b>, I studied for 5 months as a Front
-          End Developer, acquiring new skills like <b>React</b> and{" "}
-          <b>JavaScript</b>.
+          Additional stack on projects is{" "}
+          <b>Redux, Redux ToolKit, TypeScript, CSS Modules</b>. The team size
+          was about 30 people. There were business analysts, PM, DevOps, QA and
+          AQA testers, Python back-end developers, React developers. The work
+          was performed using the <b>Agile</b> methodology in the <b>Jira</b> system.
         </p>
         <p>
-          Also in 2015, I mastered the specialty of an English translator in the
-          field of professional communication.
+          My strengths include the fact that I have a translator's diploma
+          (technical English), team work experience, conflict resolution skills,
+          effective time management (Pomodoro technique), knowledge of English,
+          experience in analyzing technical foreign articles, fast learnability.
+        </p>
+        <p>
+          I studied the basics of web development at <b>Wild Code School</b>.
         </p>
         <p>
           In my free time, I prefer to improve my{" "}

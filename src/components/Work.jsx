@@ -31,7 +31,7 @@ export default function Work() {
         />
         <WorkCard
           link1="https://github.com/ktihonov93/mosaic-art"
-          link2="https://ktihonov-mosaic-art.herokuapp.com/"
+          link2="https://ktihonov93.github.io/mosaic-art/"
           src="https://i.ibb.co/Xx1Cj0v/woman-1283009-960-720.jpg"
           title="Mosaic art"
           description={
@@ -57,8 +57,8 @@ export default function Work() {
           }
         />
         <WorkCard
-          link1="https://github.com/glanzwulf/wcs_project1"
-          link2="https://wild-code-bar.netlify.app"
+          link1="https://github.com/ktihonov93/wcs_project1"
+          link2="https://ktihonov93.github.io/wcs_project1/index.html"
           src="https://i.ibb.co/vwZM6bG/pexels-photo-1581554.jpg"
           title="Wild Code Bar"
           description={

@@ -11,58 +11,24 @@ const ResumeContent = () => (
         <Timeline>
           <Event
             className="event"
-            interval={"12/2021 - 03/2022"}
-            title={<div className="title-Timeline">Frontend Developer, Intern</div>}
-            subtitle={"EPAM Systems"}
+            interval={"09/2020 - current time"}
+            title={<div className="title-Timeline">Frontend Developer</div>}
+            subtitle={"Andersen"}
           >
-            Accessibility, BEM methodology, OOP basics with practical tasks, patterns, TypeScript, HTTP, AJAX,
-            JavaScript, React. At the end of the internship, I successfully completed my graduation project on React
-            in two weeks - https://ktihonov93.github.io/
-          </Event>
-          <Event
-            className="event"
-            interval={"01/2019 - 12/2019"}
-            title={<div className="title-Timeline">Design Engineer</div>}
-            subtitle={"LLC «TECHNOCONSULTING»"}
-          >
-            Сomprehensive design by object, including creation of a full set of
-            pre-tender and tender technical documentation of the heat-exchanging
-            and capacitive equipment for gas, gas processing industries,
-            petrochemical, oil-refining and chemical enterprises.
-          </Event>
-          <Event
-            interval={"07/2018 - 12/2018"}
-            title={"Design Engineer"}
-            subtitle={"Kirovsky Zavod"}
-          >
-            Design, manufacture and supply of equipment for automobile
-            gas-filling compressor stations( CNG stations).
-          </Event>
-          <Event
-            interval={"02/2016 - 06/2018"}
-            title={"Design Engineer"}
-            subtitle={'ЗАО НПО "Компрессор"'}
-          >
-            Designing of shell-and-tube natural gas heat exchangers (thermal,
-            constructional, strength calculations; Calculation of
-            overhungsupports for natural gas heaters; Calculation of slinging
-            arrangements for natural gas heaters; issue of
-            constructiondocumentation; engineering manufacturing control). These
-            heat exchangers included in the fuel and impulse gas
-            preparationplant for: 1) the facility of The Chayandinskoye oil, gas
-            and condensate field; 2) the gas booster station of The Zapolyarnoye
-            oil,gas and condensate field; 3) The Cenomanian-Aptian deposits of
-            The Bovanenkovskoye oil, gas and condensate field (secondtrain); 4)
-            The Cenomanian-Aptian deposits of The Bovanenkovskoye oil, gas and
-            condensate field (first train).Designing of high temperature
-            hot-water heating system (thermotechnical calculation ofenclosure;
-            engineering manufacturing control) included in the fuel and impulse
-            gaspreparation plant for : 1) the facility of The Chayandinskoye
-            oil, gas and condensate field; 2) thegas booster station of The
-            Zapolyarnoye oil, gas and condensate field; 3) The Cenomanian-Aptian
-            deposits of TheBovanenkovskoye oil, gas and condensate field (second
-            train); 4) The Cenomanian-Aptian deposits of The Bovanenkovskoye
-            oil,gas and condensate field (first train).
+            Projects:<br></br>
+            <br></br>NDA<br></br>
+            <br></br> Mobile application of remote banking customer service,
+            whose business goals are: increasing revenue, reducing operating
+            costs, increasing market share and the number of customers. The
+            system allows customers to get information about banking products
+            (loans, deposits, cards), make payments and much more.<br></br>
+            <br></br>
+            Employee accounting <br></br>
+            <br></br>The project is a web application that provides information
+            about employees. App implements user registration and authorization,
+            a small Personal Account of the user with some personal data, a home
+            page where you can find a card of any employee, by clicking on it
+            you can go to the details page.
           </Event>
         </Timeline>
       </Fragment>
@@ -73,7 +39,7 @@ const ResumeContent = () => (
         <Timeline>
           <Event
             className="event"
-            interval={"11/2020 – 04/2021"}
+            interval={"2020"}
             title={
               <div className="title-Timeline">
                 5 Month Intensive Bootcamp, Front-End Developer
@@ -98,7 +64,8 @@ const ResumeContent = () => (
           >
             <p>
               Scientific publications:
-              http://refrigeration.ihbt.ifmo.ru/file/article/15213.pdf,http://refrigeration.ihbt.ifmo.ru/file/article/16069.pdf.
+              http://refrigeration.ihbt.ifmo.ru/file/article/15213.pdf,
+              http://refrigeration.ihbt.ifmo.ru/file/article/16069.pdf.
             </p>
             <p>
               Graduate qualification work – Subject of master’s dissertation:
@@ -124,4 +91,4 @@ const ResumeContent = () => (
   </div>
 );
 
-export default ResumeContent
+export default ResumeContent;
